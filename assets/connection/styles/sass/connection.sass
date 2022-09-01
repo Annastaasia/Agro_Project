@@ -1,0 +1,81 @@
+@media screen and (min-width: 1024px)
+    $font-color:#4F4F4F
+    $form-border-radius:100px
+    $form-background:#F2F2F2
+    $form-background-border:0px
+    $form-padding-left:30px
+    .connection
+        background-image: url("fon.png")
+        &__h1
+            font-family: 'SFProDisplayBold'
+            margin-left: 90px
+            padding-top: 120px
+            font-size: 96px
+            color:$font-color
+        &__icon
+            margin-left: 50px
+            margin-top: -250px
+
+        &__button
+            margin-left: 50px
+            margin-top:20px
+            width: 200px
+            height: 48px
+            background: linear-gradient(to right, #48B760, #6BB748)
+            color: white
+            border-radius: 30px
+            font-size:14px
+            border-width:0px
+            box-shadow: 0px 20px 20px 0px rgba(115,205,0,0.3)
+
+        &__container
+            margin-left: 50px
+            margin-right: 50px
+            margin-top:30px
+            display: grid
+            grid-template-columns: 1fr 1fr
+            grid-template-rows: 68px 68px 68px 188px
+            row-gap:20px
+            column-gap:50px
+            font-size: 20px
+        &__form1
+            border-radius: $form-border-radius
+            background: $form-background
+            border-width: $form-background-border
+            padding-left: $form-padding-left
+        &__form2
+            border-radius: $form-border-radius
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+            padding-left: $form-padding-left
+        &__form3
+            border-radius: $form-border-radius
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+            padding-left: $form-padding-left
+        &__form4
+            border-radius: 40px
+            grid-column:1/2
+            background: $form-background
+            border-width: $form-background-border
+            padding-left: $form-padding-left
+            
+        &__formimage
+            grid-column: 2/3
+            grid-row:1/5
+            width: 784px
+
+        &__image
+            float: right
+            margin-right: 50px
+            margin-top: 40px
+            margin-bottom:40px
+@media screen and (max-width:600px) 
+    .connection
+        &__h1
+            display: none
+
+
+
