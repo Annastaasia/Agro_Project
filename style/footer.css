@@ -1,4 +1,16 @@
+@font-face {
+  font-family: "San Francisco Pro Text";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
 footer {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr 1fr;
