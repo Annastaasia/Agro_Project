@@ -1,4 +1,23 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
 header {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  max-width: 1440px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+header .main_page {
+  font-weight: 500;
+  color: rgb(79, 79, 79);
+}
+header .products, header .work, header .partners, header .credits, header .contacs {
+  font-weight: 400;
+  color: rgb(130, 130, 130);
 }/*# sourceMappingURL=menu.css.map */
