@@ -28,12 +28,6 @@
   font-style: normal;
   font-weight: normal;
 }
-@font-face {
-  font-family: "SF Pro Display Thin";
-  src: url(../font/SFProDisplay-Thin.ttf);
-  font-style: normal;
-  font-weight: normal;
-}
 .kredit {
   padding-top: 70px;
   padding-bottom: 100px;
