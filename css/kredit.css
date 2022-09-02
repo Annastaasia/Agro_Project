@@ -1,0 +1,50 @@
+.kredit {
+  background-image: url("/assets/kredit/images/fon1.png");
+}
+.kredit__header {
+  height: 100px;
+}
+.kredit__h1 {
+  display: inline;
+  font-family: "SFProDisplayBold";
+  margin-left: 90px;
+  font-size: 96px;
+  color: #4F4F4F;
+}
+.kredit__biglogo {
+  display: inline-block;
+  float: right;
+  padding-right: 150px;
+  padding-top: 15px;
+}
+.kredit__icon {
+  margin-left: 50px;
+}
+.kredit__smalltext {
+  margin-left: 125px;
+}
+.kredit__block {
+  width: 90%;
+  height: 530px;
+  background-image: url("fon.png");
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-left: 5%;
+}
+.kredit__container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 50px 50px 50px 50px;
+}
+.kredit__button {
+  margin-left: 45%;
+  margin-top: 20px;
+  width: 200px;
+  height: 48px;
+  background: linear-gradient(to right, #48B760, #6BB748);
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  border-width: 0px;
+  box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+}/*# sourceMappingURL=kredit.css.map */
