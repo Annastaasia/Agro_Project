@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 1440px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 30px 50px 30px 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+header .main_page {
+  font-weight: 500;
+  color: rgb(79, 79, 79);
+  background: url(../img/Ellipse_menu.svg), no-repeat;
+  max-width: 51px;
+  max-height: 32px;
+}
+header .products, header .work, header .partners, header .credits, header .contacs {
+  font-weight: 400;
+  color: rgb(130, 130, 130);
+}/*# sourceMappingURL=menu.css.map */

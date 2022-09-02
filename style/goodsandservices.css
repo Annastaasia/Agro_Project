@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px){
+
+  .goods-and-services__h2 {
+  font-family: "SFProDisplayBold";
+    padding-top: 120px;
+    margin-left: 90px;
+    font-size: 96px;
+    color: #4F4F4F;
+    text-transform: uppercase;
+          }
+
+  .goods-and-services__text {
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-right: 50px;
+    font-size: 18px;
+    color: #4F4F4F;
+        } 
+       }
