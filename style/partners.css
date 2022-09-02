@@ -40,6 +40,9 @@
   font-style: normal;
   font-weight: normal;
 }
+.partners {
+  padding-top: 70px;
+}
 .partners__h1 {
   margin-left: 90px;
   font-size: 96px;
@@ -55,6 +58,7 @@
 }
 .partners__text {
   margin-left: 50px;
+  margin-top: 50px;
   font-size: 18px;
   font-family: "SF Pro Display Medium";
   color: #4F4F4F;

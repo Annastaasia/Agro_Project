@@ -51,7 +51,7 @@ footer .map_site .map3, footer .map_site .map4, footer .map_site .map5, footer .
 footer .author {
   padding: 40px 28px 50px 50px;
   font-family: "SF Pro Display";
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: rgb(130, 130, 130);
@@ -59,6 +59,7 @@ footer .author {
   grid-row: 2/3;
 }
 footer .author .name {
+  font-weight: 700;
   color: rgb(189, 189, 189);
 }
 footer .social {

@@ -136,7 +136,8 @@
   margin-top: 20px;
   width: 200px;
   height: 48px;
-  background: linear-gradient(to right, #48B760, #6BB748);
+  background-image: url(../assets/knopkafon.png);
+  background-repeat: no-repeat;
   color: white;
   border-radius: 30px;
   font-family: "SF Pro Display Heavy";

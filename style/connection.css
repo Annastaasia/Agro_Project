@@ -36,6 +36,7 @@
 }
 @media screen and (min-width: 1024px) {
   .connection {
+    padding-bottom: 120px;
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h1 {
