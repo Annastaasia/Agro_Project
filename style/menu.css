@@ -22,10 +22,10 @@ header .main_page {
   max-width: 51px;
   max-height: 32px;
 }
-header .products, header .work, header .partners, header .credits, header .contacs {
+header .products_menu, header .work_menu, header .partners_menu, header .credits_menu, header .contacs_menu {
   font-weight: 400;
   color: rgb(130, 130, 130);
 }
-header .work {
+header .work_menu {
   width: 133px;
 }/*# sourceMappingURL=menu.css.map */
