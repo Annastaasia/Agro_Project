@@ -136,6 +136,10 @@ footer .author .name {
   color: rgb(189, 189, 189);
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /*# sourceMappingURL=footer.css.map */
 
