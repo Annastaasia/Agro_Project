@@ -1,19 +1,70 @@
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url(../font/SFProDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url(../font/SFProDisplay-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Heavy";
+  src: url(../font/SFProDisplay-Heavy.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url(../font/SFProDisplay-Medium.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Black";
+  src: url(../font/SFProDisplay-Black.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url(../font/SFProDisplay-Thin.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url(/fonts/sfpro/SFProDisplay-Bold.woff2);
+  font-style: normal;
+  font-weight: normal;
+}
+
 @media screen and (min-width: 1024px){
 
-  .goods-and-services__h2 {
-  font-family: "SFProDisplayBold";
-    padding-top: 120px;
+  .goodsandservices__h2 {
+    position: absolute;
+  font-family: "SF Pro Display Black";
     margin-left: 90px;
     font-size: 96px;
     color: #4F4F4F;
     text-transform: uppercase;
           }
 
-  .goods-and-services__text {
+  .goodsandservices__text {
+    font-family: "SF Pro Display Medium";
     margin-left: 50px;
-    padding-top: 20px;
+    padding-top: 7vh;
     margin-right: 50px;
     font-size: 18px;
     color: #4F4F4F;
         } 
        }
+
+  .goodsandservices__logo {
+    position: relative;
+    padding-left: 4.5vw;
+    margin-top: 12vh;
+
+  }
