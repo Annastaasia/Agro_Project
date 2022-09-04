@@ -40,14 +40,14 @@
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h1 {
-    margin-left: 90px;
+    padding-left: 90px;
     padding-top: 120px;
     font-size: 96px;
     font-family: "SF Pro Display Black";
     color: #4F4F4F;
   }
   .connection__icon {
-    margin-left: 50px;
+    padding-left: 50px;
   }
   .connection__button {
     margin-left: 50px;
@@ -108,9 +108,9 @@
   }
   .connection__image {
     float: right;
-    margin-right: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 @media screen and (max-width: 600px) {
