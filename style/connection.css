@@ -40,14 +40,18 @@
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h1 {
-    padding-left: 90px;
-    padding-top: 120px;
+    position: absolute;
+    margin-left: 90px;
+    padding-top: 10px;
     font-size: 96px;
     font-family: "SF Pro Display Black";
     color: #4F4F4F;
   }
   .connection__icon {
-    padding-left: 50px;
+    position: relative;
+    padding-left: 3.5vw;
+    margin-top: 12vh;
+
   }
   .connection__button {
     margin-left: 50px;
