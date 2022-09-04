@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url(../font/SFProDisplay-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Bold";
+    src: url(../font/SFProDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Heavy";
+    src: url(../font/SFProDisplay-Heavy.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Medium";
+    src: url(../font/SFProDisplay-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Black";
+    src: url(../font/SFProDisplay-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Thin";
+    src: url(../font/SFProDisplay-Thin.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SFProDisplayBold";
+    src: url(/fonts/sfpro/SFProDisplay-Bold.woff2);
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @media screen and (min-width: 1024px){
+
+    .howwork__h2 {
+        position: absolute;
+      font-family: "SF Pro Display Black";
+        margin-left: 90px;
+        font-size: 96px;
+        color: #4F4F4F;
+        text-transform: uppercase;
+              }
+
+    .howwork__logo {
+                position: relative;
+                padding-left: 3.5vw;
+                margin-top: 12vh;
+            
+              }
+
+    .howwork__blok {
+        padding-top: 6vh;
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: 500;
+                display: grid;
+                grid-template-areas:  ". howwork__blok1 . howwork__blok4 ."
+                                      ". . . . ."
+                                      ". howwork__blok2 . howwork__blok5 ."
+                                      ". . . . ."
+                                      ". howwork__blok3 . . .";
+                grid-template-columns: 13% 1fr 17% 1fr 15%;
+                grid-template-rows: 1fr 8% 1fr 8% 1fr;
+              }
+
+              .howwork__blok1 {
+                grid-area: howwork__blok1;
+                display: grid;
+                grid-template-areas:  "howwork__number-1 howwork__h3"
+                                      "howwork__number-1 howwork__p";
+                grid-template-columns: 25% 1fr;
+                grid-template-rows: 25% 1fr;
+
+              }
+
+              .howwork__blok2 {
+                grid-area: howwork__blok2;
+                display: grid;
+                grid-template-areas:  "howwork__number-2 howwork__h3"
+                                      "howwork__number-2 howwork__p";
+                grid-template-columns: 25% 1fr;
+                grid-template-rows: 25% 1fr;
+
+              }
+
+              .howwork__blok3 {
+                grid-area: howwork__blok3;
+                display: grid;
+                grid-template-areas:  "howwork__number-3 howwork__h3"
+                                      "howwork__number-3 howwork__p";
+                grid-template-columns: 25% 1fr;
+                grid-template-rows: 25% 1fr;
+
+              }
+
+              .howwork__blok4 {
+                grid-area: howwork__blok4;
+                display: grid;
+                grid-template-areas:  "howwork__number-4 howwork__h3"
+                                      "howwork__number-4 howwork__p";
+                grid-template-columns: 25% 1fr;
+                grid-template-rows: 25% 1fr;
+
+              }
+
+              .howwork__blok5 {
+                grid-area: howwork__blok5;
+                display: grid;
+                grid-template-areas:  "howwork__number-5 howwork__h3"
+                                      "howwork__number-5 howwork__p";
+                grid-template-columns: 25% 1fr;
+                grid-template-rows: 25% 1fr;
+
+              }
+
+              .howwork__blok1 {
+                grid-area: howwork__blok1;
+                display: grid; 
+            }
+
+              .howwork__blok2 {
+                grid-area: howwork__blok2;
+                display: grid;
+              }
+
+              .howwork__blok3 {
+                grid-area: howwork__blok3;
+                display: grid;
+              }
+
+              .howwork__blok4 {
+                grid-area: howwork__blok4;
+                display: grid;
+              }
+
+              .howwork__blok5 {
+                grid-area: howwork__blok5;
+                display: grid;
+              }
+
+              .howwork__number-1 {
+                grid-area: howwork__number-1;
+              }
+
+              .howwork__number-2 {
+                grid-area: howwork__number-2;
+              }
+
+              .howwork__number-3 {
+                grid-area: howwork__number-3;
+              }
+
+              .howwork__number-4 {
+                grid-area: howwork__number-4;
+              }
+
+              .howwork__number-5 {
+                grid-area: howwork__number-5;
+              }
+
+              .howwork__h3 {
+                grid-area: howwork__h3;
+                font-family: "SF Pro Display Bold";
+                font-size: 1.3vw;
+                font-weight: 500;
+            }
+
+              .howwork__p {
+                grid-area: howwork__p;
+                font-family: "SF Pro Display Medium";
+                font-size: 0.9vw;
+                color: #828282;
+              }
+
+              .howwork__button {
+                width: 200px;
+                height: 48px;
+                padding-top: 14px;
+                margin-left: 44%;
+                margin-top: 120px;
+                margin-bottom: 70px;
+                background-image: url(../assets/knopkafon.png);
+                background-position: center;
+                background-size: 300px 600px;
+                color: white;
+                border-radius: 30px;
+                font-family: "SF Pro Display Heavy";
+                text-transform: uppercase;
+                font-size: 14px;
+                border-width: 0px;
+                box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                text-decoration:none;
+              }
+
+              .howwork__button:hover {
+                color: white;
+            }
+            }
+
