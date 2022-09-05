@@ -8,140 +8,65 @@ footer {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 500;
-  width: 99.2vw;
-  height: 45vh ;
+  max-width: 1440px;
   display: grid;
-  grid-template-areas:  "logo map_site map_site social"
-                        "logo map_site map_site icon_soc"
-                        "author . . .";
-  grid-template-columns: 25% 1fr 1fr 45%;
-  grid-template-rows: 20% 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   background-color: rgb(79, 79, 79);
   color: white;
 }
-
-
 footer .logo {
-  grid-area: logo;
-  padding-top: 7vh;
-  padding-left: 3vw;
-
+  padding: 50px 120px 50px 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 footer .map_site {
-  grid-area: map_site;
+  padding-top: 50px;
+  grid-column: 2/3;
+  grid-row: 1/2;
   display: grid;
-  grid-template-areas:  "map1 ."
-                        "map2 map5"
-                        "map3 map6"
-                        "map4 map7";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 30% 1fr 1fr 2fr;
-  
+  grid-template-rows: repeat(4, 1fr);
+  gap: 12px;
 }
 footer .map_site .map1 {
-  grid-area: map1;
-  align-self: flex-end;
+  grid-column: 1/3;
+  grid-row: 1/2;
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
 }
 footer .map_site .map2 {
-  grid-area: map2;
-  align-self: flex-end;
   color: rgb(189, 189, 189);
   font-weight: 500;
   font-size: 14px;
+  line-height: 18px;
 }
-
-footer .map_site .map3 {
-  grid-area: map3;
-  align-self: center;
+footer .map_site .map3, footer .map_site .map4, footer .map_site .map5, footer .map_site .map6, footer .map_site .map7 {
   color: rgb(130, 130, 130);
   font-weight: 400;
   font-size: 14px;
+  line-height: 18px;
 }
-
-footer .map_site .map4 {
-  grid-area: map4;
-  align-self: flex-start;
-  color: rgb(130, 130, 130);
-  font-weight: 400;
-  font-size: 14px;
-}
-
-footer .map_site .map5 {
-  grid-area: map5;
-  align-self: flex-end;
-  color: rgb(130, 130, 130);
-  font-weight: 400;
-  font-size: 14px;
-}
-
-footer .map_site .map6 {
-  grid-area: map6;
-  align-self: center;
-  color: rgb(130, 130, 130);
-  font-weight: 400;
-  font-size: 14px;
-}
-
-footer .map_site .map7 {
-  grid-area: map7;
-  align-self: flex-start;
-  color: rgb(130, 130, 130);
-  font-weight: 400;
-  font-size: 14px;
-} 
-
-footer .social {
-  grid-area: social;
-  align-self: flex-end;
-  
-}
-
-footer .icon_soc{
-  grid-area: icon_soc;
-  padding-top: 1vh;
-  display: grid;
-  grid-template-areas:"face inst vk yout .";
-  grid-template-columns: 1fr 1fr 1fr 1fr 75%;
-}
-
-footer .icon_soc .face{
-  grid-area: face;
-}
-footer .icon_soc .inst{
-  grid-area: inst;
-}
-
-footer .icon_soc .vk{
-  grid-area: vk;
-}
-
-footer .icon_soc .yout{
-  grid-area: yout;
-}
-
 footer .author {
-  grid-area: author ;
-  padding-left: 3vw;
-  padding-right: 5vw;
+  padding: 40px 28px 50px 50px;
   font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 14px;
+  line-height: 18px;
   color: rgb(130, 130, 130);
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 footer .author .name {
   font-weight: 700;
   color: rgb(189, 189, 189);
 }
-
-a {
-  text-decoration: none;
+footer .social {
+  padding-top: 50px;
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
-
-
-/*# sourceMappingURL=footer.css.map */
-
-
-
+footer .social img {
+  padding-right: 27px;
+}/*# sourceMappingURL=footer.css.map */

@@ -37,21 +37,20 @@
   height: 100px;
 }
 .kredit__h1 {
-  margin-left: 90px;
-  position: absolute;
+  padding-left: 90px;
+  display: inline;
   font-family: "SF Pro Display Heavy";
   font-size: 96px;
   color: #4F4F4F;
 }
 .kredit__biglogo {
-  position: relative;
-    padding-left: 68vw;
-    padding-top: 11vh;
+  display: inline-block;
+  float: right;
+  padding-right: 150px;
+  padding-top: 15px;
 }
 .kredit__icon {
-  position: relative;
-    padding-left: 3.5vw;
-    margin-top: 7vh;
+  margin-left: 50px;
 }
 .kredit__smalltext {
   font-family: "SF Pro Display Regular";

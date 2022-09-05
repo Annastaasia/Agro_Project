@@ -40,18 +40,14 @@
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h1 {
-    position: absolute;
-    margin-left: 90px;
-    padding-top: 10px;
+    padding-left: 90px;
+    padding-top: 120px;
     font-size: 96px;
     font-family: "SF Pro Display Black";
     color: #4F4F4F;
   }
   .connection__icon {
-    position: relative;
-    padding-left: 3.5vw;
-    margin-top: 12vh;
-
+    padding-left: 50px;
   }
   .connection__button {
     margin-left: 50px;
@@ -110,9 +106,6 @@
     grid-column: 2/3;
     grid-row: 1/5;
   }
-  .connection__formimage1{
-    display:none;
-  }
   .connection__image {
     float: right;
     padding-right: 50px;
@@ -122,85 +115,6 @@
 }
 @media screen and (max-width: 600px) {
   .connection__h1 {
-    position: absolute;
-    padding-left: 40px;
-    font-size: 24px;
-    font-family: "SF Pro Display Black";
-    color: #4F4F4F;
+    display: none;
   }
-  .connection__icon {
-    position: relative;
-    padding-left: 3.5vw;
-    margin-top: 2vh;
-    width: 40px;
-    }
-
-  .connection__container {
-    
-    padding-top: 30px;
-    padding-left:3.5vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 55px 55px 55px 130px;
-    row-gap: 20px;
-    -moz-column-gap: 50px;
-    column-gap: 50px;
-    font-size: 14px;
-  }
-    .connection__form1 {
-      width:92vw;
-      padding-left: 3.5vw;
-      border-radius: 100px;
-      background: #F2F2F2;
-      border-width: 0px;
-    }
-    .connection__form2 {
-      width:92vw;
-      padding-left: 3.5vw;
-      border-radius: 100px;
-      grid-column: 1/2;
-      background: #F2F2F2;
-      border-width: 0px;
-    }
-    .connection__form3 {
-      width:92vw;
-      padding-left: 3.5vw;
-      border-radius: 100px;
-      grid-column: 1/2;
-      background: #F2F2F2;
-      border-width: 0px;
-    }
-    .connection__form4 {
-      width:92vw;
-      padding-left: 3.5vw;
-      border-radius: 40px;
-      grid-column: 1/2;
-      background: #F2F2F2;
-      border-width: 0px;
-    }
-    .connection__formimage{
-      display:none;
-    }
-    .connection__button {
-      margin-left: 3.5vw;
-      margin-top: 20px;
-      width: 200px;
-      height: 48px;
-      background: linear-gradient(to right, #48B760, #6BB748);
-      font-family: "SF Pro Display Heavy";
-      font-size: 14px;
-      color: white;
-      border-radius: 30px;
-      border-width: 0px;
-      box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
-    }
-
-    .connection__formimage1{
-      width:93vw;
-      margin-left: 3.5vw;
-      padding-top:50px
-    }
-    .connection__image{
-      display:none;
-    }
 }/*# sourceMappingURL=connection.css.map */
