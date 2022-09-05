@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url(../font/SFProDisplay-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Bold";
+    src: url(../font/SFProDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Heavy";
+    src: url(../font/SFProDisplay-Heavy.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Medium";
+    src: url(../font/SFProDisplay-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Black";
+    src: url(../font/SFProDisplay-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SF Pro Display Thin";
+    src: url(../font/SFProDisplay-Thin.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "SFProDisplayBold";
+    src: url(/fonts/sfpro/SFProDisplay-Bold.woff2);
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @media screen and (min-width: 1024px){
+
+
+.mainpage {
+                display: grid;
+                grid-template-areas: "mainpage__container2 mainpage__container4";
+                grid-template-columns: 1fr 1fr;
+              }
+           
+ .mainpage__container2 {
+    display: grid;
+                grid-template-areas: "."
+                "mainpage__container2__h1"
+                "mainpage__container2__h3"
+                "mainpage__container2__p"
+                "mainpage__container2__button"
+                "."
+                "mainpage__container3";
+                grid-template-rows: 1fr 20% 5% 10% 15% 1fr 20%;
+ }
+
+ .mainpage__container2__h1 {
+    grid-area: mainpage__container2__h1;
+    align-self: center;
+    font-family: "SF Pro Display Black";
+    margin-left: 50px;
+    font-size: 116px;
+    color: #48B760;
+    text-transform: uppercase;
+ }
+
+ .mainpage__container2__span {
+    color: #4F4F4F;
+ }
+
+ .mainpage__container2__h3 {
+    grid-area: mainpage__container2__h3;
+    font-family: "SF Pro Display Regular";
+    margin-left: 50px;
+    font-size: 18px;
+    color: #BDBDBD;
+    line-height: 18px;
+ }
+
+ .mainpage__container2__p {
+    grid-area: mainpage__container2__p;
+    font-family: "SF Pro Display Regular";
+    margin-left: 50px;
+    padding-right: 42%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    line-height: 18px;
+ }
+
+ .mainpage__container2__button {
+    grid-area: mainpage__container2__button;
+                width: 200px;
+                height: 48px;
+                padding-top: 14px;
+                margin-left: 7%;
+                background-image: url(../assets/knopkafon.png);
+                background-position: center;
+                background-size: 300px 600px;
+                color: white;
+                border-radius: 30px;
+                font-family: "SF Pro Display Heavy";
+                text-transform: uppercase;
+                font-size: 14px;
+                border-width: 0px;
+                box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                text-decoration:none;
+ }
+
+ .mainpage__container2__button:hover {
+    color: white;
+}
+
+ .mainpage__container3 {
+    grid-area: mainpage__container3;
+    display: grid;
+    grid-template-areas: "mainpage__container3__bot mainpage__container3__p";
+    grid-template-columns: 1fr 75%;
+ }
+
+ .mainpage__container3__bot {
+    grid-area: mainpage__container3__bot;
+    margin-left: 50px;
+    align-self: center;
+ }
+
+ .mainpage__container3__p {
+    grid-area: mainpage__container3__p;
+    align-self: center;
+    font-family: "SF Pro Display Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;
+
+ }
+
+ .mainpage__container4 {
+    grid-area: mainpage__container4;
+    display: grid;
+    grid-template-areas: "mainpage__container5 mainpage__container6 mainpage__container7";
+                grid-template-columns: 1fr 1fr 1fr;
+ }
+
+}
