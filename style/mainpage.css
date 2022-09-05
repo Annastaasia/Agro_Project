@@ -169,7 +169,7 @@
  .mainpage__container5__p {
     grid-area: mainpage__container5__p;
     display: grid;
-    align-self: flex-end;
+    align-items: flex-end;
     justify-self: center;
     font-family: "SF Pro Display Medium";
     color: #828282;
@@ -178,8 +178,11 @@ font-size: 18px;
 line-height: 18px;
  }
 
- .mainpage__container7__img {
-    grid-area: mainpage__container7__img;
+ .mainpage__container5__img {
+    grid-area: mainpage__container5__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
  }
 
 
