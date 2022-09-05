@@ -48,7 +48,7 @@
                 display: grid;
                 grid-template-areas: "mainpage__container2 mainpage__container4";
                 grid-template-columns: 1fr 1fr;
-                padding-top: 6%;
+                padding-top: 10%;
               }
            
  .mainpage__container2 {
@@ -147,8 +147,8 @@
  .mainpage__container4 {
     grid-area: mainpage__container4;
     display: grid;
-    grid-template-areas: "mainpage__container5 mainpage__container6 mainpage__container7";
-                grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "mainpage__container5 mainpage__container6 mainpage__container7 .";
+                grid-template-columns: 1fr 1fr 1fr 32%;
  }
 
  .mainpage__container5 {
