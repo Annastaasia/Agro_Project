@@ -36,6 +36,7 @@
 }
 @media screen and (min-width: 1024px) {
   .connection {
+    padding-top: 70px;
     padding-bottom: 120px;
     background-image: url("../assets/connection/images/fon.png");
   }
@@ -56,15 +57,22 @@
   .connection__button {
     margin-left: 50px;
     margin-top: 20px;
+    padding-top: 14px;
     width: 200px;
     height: 48px;
-    background: linear-gradient(to right, #48B760, #6BB748);
+    background-image: url(../assets/knopkafon.png);
+    background-size: 300px 600px;
+    background-position: center;
     font-family: "SF Pro Display Heavy";
+    text-align: center;
     font-size: 14px;
     color: white;
     border-radius: 30px;
     border-width: 0px;
     box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+  }
+  .connection__button:hover{
+    color:white;
   }
   .connection__container {
     margin-left: 50px;
@@ -184,9 +192,12 @@
     .connection__button {
       margin-left: 3.5vw;
       margin-top: 20px;
+      padding-top:14px;
       width: 200px;
       height: 48px;
-      background: linear-gradient(to right, #48B760, #6BB748);
+      background-image: url(../assets/knopkafon.png);
+      background-position: center;
+      background-size: 300px 600px;
       font-family: "SF Pro Display Heavy";
       font-size: 14px;
       color: white;
@@ -194,7 +205,9 @@
       border-width: 0px;
       box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
     }
-
+    .connection__button:hover{
+      color:white;
+    }
     .connection__formimage1{
       width:93vw;
       margin-left: 3.5vw;
