@@ -12,20 +12,24 @@ header {
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
-  margin: 30px 50px 30px 50px;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
 }
+<<<<<<< Updated upstream
+header .logo_menu, .main_page, header .products_menu, header .work_menu, header .partners_menu, header .credits_menu, header .contacs_menu {
+=======
 header .main_page {
   font-weight: 500;
   color: rgb(79, 79, 79);
   max-width: 51px;
   max-height: 32px;
 }
-header .products_menu, header .work_menu, header .partners_menu, header .credits_menu, header .contacs_menu {
+header .products, header .work, header .menu_partners, header .credits, header .contacs {
+>>>>>>> Stashed changes
   font-weight: 400;
   color: rgb(130, 130, 130);
+  justify-content: space-between;
+  align-items: center;
 }
 header .work_menu {
   width: 133px;
+  justify-content: space-between;
 }/*# sourceMappingURL=menu.css.map */
