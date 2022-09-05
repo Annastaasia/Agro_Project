@@ -48,6 +48,7 @@
                 display: grid;
                 grid-template-areas: "mainpage__container2 mainpage__container4";
                 grid-template-columns: 1fr 1fr;
+                padding-top: 6%;
               }
            
  .mainpage__container2 {
@@ -229,7 +230,7 @@ line-height: 18px;
     grid-template-areas: "mainpage__container7__svg"
                         "mainpage__container7__p"
                          "mainpage__container7__img";
-                grid-template-rows: 5% 3% 1fr;
+                grid-template-rows: 3% 3% 1fr;
                 grid-template-columns: 1fr;
  }
 
