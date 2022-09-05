@@ -5,6 +5,7 @@
   font-weight: normal;
 }
 header {
+  position: sticky;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   max-width: 1440px;
@@ -13,20 +14,23 @@ header {
   font-size: 14px;
   line-height: 18px;
 }
-header .main_page {
-  font-weight: 500;
-  color: rgb(79, 79, 79);
-  max-width: 51px;
-  max-height: 32px;
+header .logo_menu{
+  margin: 3vmax;
 }
-header .products, header .work, header .menu_partners, header .credits, header .contacs {
->>>>>>> Stashed changes
+header a {
+  text-decoration: none;
   font-weight: 400;
   color: rgb(130, 130, 130);
   justify-content: space-between;
-  align-items: center;
+  margin: 6vh;
+}
+header a:hover{
+  color: rgb(189, 189, 189);
+  font-weight: 500;
 }
 header .work_menu {
-  width: 133px;
-  justify-content: space-between;
-}/*# sourceMappingURL=menu.css.map */
+  max-width: 20vh;
+}
+header .products_menu {
+  max-width: 30vh;
+}
