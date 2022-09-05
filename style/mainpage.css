@@ -155,8 +155,9 @@
     display: grid;
     grid-template-areas: "mainpage__container5__svg"
                         "mainpage__container5__p"
-                         "mainpage__container7__img";
-                grid-template-rows: 40% 5% 1fr;
+                         "mainpage__container5__img";
+                grid-template-rows: 50% 5% 1fr;
+                grid-template-columns: 1fr;
  }
 
  .mainpage__container5__svg {
@@ -180,6 +181,79 @@ line-height: 18px;
 
  .mainpage__container5__img {
     grid-area: mainpage__container5__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+
+ .mainpage__container6 {
+    grid-area: mainpage__container6;
+    display: grid;
+    grid-template-areas: "mainpage__container6__svg"
+                        "mainpage__container6__p"
+                         "mainpage__container6__img";
+                grid-template-rows: 25% 5% 1fr;
+                grid-template-columns: 1fr;
+ }
+
+ .mainpage__container6__svg {
+    grid-area: mainpage__container6__svg;
+    display: grid;
+    align-self: flex-end;
+    justify-self: center;
+ }
+
+ .mainpage__container6__p {
+    grid-area: mainpage__container6__p;
+    display: grid;
+    align-items: flex-end;
+    justify-self: center;
+    font-family: "SF Pro Display Medium";
+    color: #828282;
+    font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+ }
+
+ .mainpage__container6__img {
+    grid-area: mainpage__container6__img;
+    display: grid;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+ .mainpage__container7 {
+    grid-area: mainpage__container7;
+    display: grid;
+    grid-template-areas: "mainpage__container7__svg"
+                        "mainpage__container7__p"
+                         "mainpage__container7__img";
+                grid-template-rows: 5% 3% 1fr;
+                grid-template-columns: 1fr;
+ }
+
+ .mainpage__container7__svg {
+    grid-area: mainpage__container7__svg;
+    display: grid;
+    align-self: flex-end;
+    justify-self: center;
+ }
+
+ .mainpage__container7__p {
+    grid-area: mainpage__container7__p;
+    display: grid;
+    align-items: flex-end;
+    justify-self: center;
+    font-family: "SF Pro Display Medium";
+    color: #828282;
+    font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+ }
+
+ .mainpage__container7__img {
+    grid-area: mainpage__container7__img;
     display: grid;
     align-self: flex-end;
     justify-self: flex-start;
