@@ -13,6 +13,8 @@ header {
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
+  background-color: white;
+  z-index: 1;
 }
 header .logo_menu{
   margin: 3vmax;
@@ -27,6 +29,10 @@ header a {
 header a:hover{
   color: rgb(189, 189, 189);
   font-weight: 500;
+  background-image: url(../img/Ellipse_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 header .work_menu {
   max-width: 20vh;
