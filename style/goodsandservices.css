@@ -116,7 +116,7 @@
   .goodsandservices-card {
     display: none;
   }
-  
+
   .goodsandservices__h2 {
     position: absolute;
   font-family: "SF Pro Display Black";
@@ -132,6 +132,22 @@
   .goodsandservices__text {
     display: none;
         } 
+
+        .goodsandservices__cardtext {
+          font-family: "SF Pro Display Medium";
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 26px;
+          color: #828282;
+        }
+
+        .goodsandservices__cardtext2 {
+          font-family: "SF Pro Display Medium";
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #BDBDBD;
+        }
 
         .goodsandservices__textmobil {
           font-family: "SF Pro Display Medium";
