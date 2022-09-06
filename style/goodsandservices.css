@@ -41,7 +41,16 @@
   font-weight: normal;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 601px){
+
+  .goodsandservices__logomobil {
+    display: none;
+  }
+
+  .goodsandservices__textmobil {
+    display: none;
+  }
+
   .goodsandservices{
     padding-top:100px;
     background-image: url(../img/fon_tovari.png);
@@ -50,7 +59,7 @@
   .goodsandservices__h2 {
     position: absolute;
   font-family: "SF Pro Display Black";
-    margin-left: 90px;
+ margin-left: 90px;
     font-size: 96px;
     color: #4F4F4F;
     text-transform: uppercase;
@@ -64,11 +73,95 @@
     font-size: 18px;
     color: #4F4F4F;
         } 
-       }
+      
 
   .goodsandservices__logo {
     position: relative;
     padding-left: 4.5vw;
     margin-top: 12vh;
-
   }
+
+  .goodsandservices__button {
+    width: 200px;
+                height: 48px;
+                padding-top: 14px;
+                margin-left: 7%;
+                background-image: url(../assets/knopkafon.png);
+                background-position: center;
+                background-size: 300px 600px;
+                color: white;
+                border-radius: 30px;
+                font-family: "SF Pro Display Heavy";
+                text-transform: uppercase;
+                font-size: 14px;
+                border-width: 0px;
+                box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                text-decoration:none;
+  }
+
+  .goodsandservices__h5 {
+    font-family: "SF Pro Display Regular";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #828282;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+  .goodsandservices-card {
+    display: none;
+  }
+  
+  .goodsandservices__h2 {
+    position: absolute;
+  font-family: "SF Pro Display Black";
+    margin-left: 10%;
+    margin-top: 20%;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+    text-transform: uppercase;
+          }
+
+  .goodsandservices__text {
+    display: none;
+        } 
+
+        .goodsandservices__textmobil {
+          font-family: "SF Pro Display Medium";
+    margin-left: 2vh;
+    padding-top: 1vh;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+        }
+      
+
+  .goodsandservices__logo {
+  display: none;
+  }
+
+  .goodsandservices__logomobil {
+    position: relative;
+    margin-top: 25%;
+    padding-left: 4.2vw;
+   
+  }
+
+  .goodsandservices__h5 {
+    font-family: "SF Pro Display Regular";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #828282;
+  }
+
+}
