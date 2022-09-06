@@ -41,7 +41,7 @@
     font-weight: normal;
   }
   
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 601px){
 
 
 .mainpage {
@@ -259,6 +259,206 @@ line-height: 18px;
     align-self: flex-end;
     justify-self: flex-start;
  }
+
+ .mainpage__mobil__button {
+   display: none;
+ }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+   .mainpage__container2__button {
+      display: none;
+   }
+
+   .mainpage {
+      display: grid;
+      grid-template-areas: "mainpage__container2__h1"
+                           "mainpage__container2__h3 "
+                           "mainpage__container2__p"
+                           "mainpage__container5"
+                           "mainpage__container6"
+                           "mainpage__container7"
+                           "mainpage__mobil__button";
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(7, auto);
+    }
+
+   .mainpage__container2__h1 {
+      grid-area: mainpage__container2__h1;
+      justify-content: center;
+      font-family: "SF Pro Display Black";
+      font-weight: 900;
+      font-size: 70px;
+      line-height: 82px;
+      color: #48B760;
+      text-transform: uppercase;
+      padding-left: 2%;
+      margin: 0;
+   }
+
+   .mainpage__container2__span {
+      color: #4F4F4F;
+   }
+  
+   .mainpage__container2__h3 {
+      grid-area: mainpage__container2__h3;
+      display: grid;
+      justify-self: stretch;
+      font-family: "SF Pro Display Regular";
+      margin-top: 2%;
+      padding-left: 3%;
+      padding-right: 30%;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #BDBDBD;
+   }
+  
+   .mainpage__container2__p {
+      grid-area: mainpage__container2__p;
+      padding-left: 3%;
+      padding-right: 18%;
+      font-family: "SF Pro Display Regular";
+      margin-top: 2%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #828282;
+   }
+
+   .mainpage__container5 {
+      grid-area: mainpage__container5;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container5__svg mainpage__container5__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+                  margin-top: 7%;
+   }
+
+
+   .mainpage__container5__svg {
+      grid-area: mainpage__container5__svg;
+      display: grid;
+      justify-self: end;
+     
+   }
+
+   .mainpage__container5__p {
+      grid-area: mainpage__container5__p;
+      display: grid;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .mainpage__container6 {
+      grid-area: mainpage__container6;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container6__svg mainpage__container6__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+   }
+
+   .mainpage__container6__svg {
+      grid-area: mainpage__container6__svg;
+      display: grid;
+      justify-self: end;
+   }
+  
+   .mainpage__container6__p {
+      grid-area: mainpage__container6__p;
+      display: grid;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+   }
+
+   .mainpage__container7 {
+      grid-area: mainpage__container7;
+      display: grid;
+      grid-template-areas: 
+                           "mainpage__container7__svg mainpage__container7__p";
+                  grid-template-rows: 1fr;
+                  grid-template-columns: 9% 1fr;
+                  gap: 1rem;
+   }
+
+   .mainpage__container7__svg {
+      grid-area: mainpage__container7__svg;
+      display: grid;
+      justify-self: end;
+   }
+  
+   .mainpage__container7__p {
+      grid-area: mainpage__container7__p;
+      font-family: "SF Pro Display Medium";
+      color: #828282;
+      font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+   }
+  
+   .mainpage__mobil__button {
+      grid-area: mainpage__mobil__button;
+                  width: 200px;
+                  height: 48px;
+                  margin-top: 8%;
+                  margin-left: 20%;
+  padding-top:14px;
+                  background-image: url(../assets/knopkafon.png);
+                  background-position: center;
+                  background-size: 300px 600px;
+                  color: white;
+                  border-radius: 30px;
+                  font-family: "SF Pro Display Heavy";
+                  text-transform: uppercase;
+                  font-weight: 800;
+                  font-size: 14px;
+                  border-width: 0px;
+                  box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+                  text-decoration:none;
+   }
+  
+   .mainpage__container2__button:hover {
+      color: white;
+  }
+
+  .mainpage__container3__bot {
+   display: none;
+}
+
+.mainpage__container3__p {
+   display: none;
+
+}
+
+.mainpage__container5__img {
+   display: none;
+}
+
+.mainpage__container6__img {
+   display: none;
+}
+
+.mainpage__container7__img {
+   display: none;
+}
 
 
 }
