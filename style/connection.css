@@ -41,14 +41,17 @@
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h1 {
-    padding-left: 90px;
-    padding-top: 120px;
+    position: absolute;
+    margin-left: 90px;
+    padding-top: 10px;
     font-size: 96px;
     font-family: "SF Pro Display Black";
     color: #4F4F4F;
   }
   .connection__icon {
-    padding-left: 50px;
+    position: relative;
+    padding-left: 3.5vw;
+    margin-top: 12vh;
   }
   .connection__button {
     margin-left: 50px;
@@ -114,6 +117,9 @@
     grid-column: 2/3;
     grid-row: 1/5;
   }
+  .connection__formimage1{
+    display:none;
+  }
   .connection__image {
     float: right;
     padding-right: 50px;
@@ -123,7 +129,11 @@
 }
 @media screen and (max-width: 600px) {
   .connection__h1 {
-    display: none;
+    position: absolute;
+    padding-left: 40px;
+    font-size: 24px;
+    font-family: "SF Pro Display Black";
+    color: #4F4F4F;
   }
   .connection__icon {
     position: relative;
@@ -133,7 +143,7 @@
     }
 
   .connection__container {
-    
+
     padding-top: 30px;
     padding-left:3.5vw;
     display: grid;
@@ -144,6 +154,7 @@
     column-gap: 50px;
     font-size: 14px;
   }
+
     .connection__form1 {
       width:92vw;
       padding-left: 3.5vw;
