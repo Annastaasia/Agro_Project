@@ -125,8 +125,6 @@
   .connection__h1 {
     display: none;
   }
-<<<<<<< HEAD
-=======
   .connection__icon {
     position: relative;
     padding-left: 3.5vw;
@@ -207,5 +205,4 @@
     .connection__image{
       display:none;
     }
->>>>>>> e9f6f3c77df61080b43723fbd2401f6a4851e4da
 }/*# sourceMappingURL=connection.css.map */

@@ -121,16 +121,21 @@
   color: #BDBDBD;
 }
 .kredit2__button {
-  margin-left: 45%;
+  margin-left: 44%;
   margin-top: 20px;
+  padding-top:14px;
   width: 200px;
   height: 48px;
-  background: linear-gradient(to right, #48B760, #6BB748);
-  background-repeat: no-repeat;
+  background-image: url(../assets/knopkafon.png);
+  background-position: center;
+  background-size: 300px 600px;
   color: white;
   border-radius: 30px;
   font-family: "SF Pro Display Heavy";
   font-size: 14px;
   border-width: 0px;
   box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
+}
+.kredit2__button:hover{
+  color:white;
 }/*# sourceMappingURL=kredit2.css.map */
