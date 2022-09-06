@@ -124,7 +124,7 @@
     grid-area: mainpage__container3;
     display: grid;
     grid-template-areas: "mainpage__container3__bot mainpage__container3__p";
-    grid-template-columns: 1fr 75%;
+    grid-template-columns: 1fr 70%;
  }
 
  .mainpage__container3__bot {

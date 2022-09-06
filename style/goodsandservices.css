@@ -42,7 +42,11 @@
 }
 
 @media screen and (min-width: 1024px){
-
+  .goodsandservices{
+    padding-top:100px;
+    background-image: url(../img/fon_tovari.png);
+    background-repeat: no-repeat;
+  }
   .goodsandservices__h2 {
     position: absolute;
   font-family: "SF Pro Display Black";

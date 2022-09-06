@@ -42,7 +42,11 @@
   }
   
   @media screen and (min-width: 1024px){
-
+    .howwork{
+      padding-top:70px;
+      background-image: url(../img/fon_kak.png);
+      background-repeat: no-repeat;
+    }
     .howwork__h2 {
         position: absolute;
       font-family: "SF Pro Display Black";
