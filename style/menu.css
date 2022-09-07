@@ -78,6 +78,12 @@ header .mobil_menu ul {
 }
 header .mobil_menu .open_menu:hover ul {
   display: block;
+  color: #4F4F4F;
+  text-decoration: none;
+}
+header .mobil_menu .open_menu a {
+  color: #4F4F4F;
+  text-decoration: none;
 }
 header .mobil_menu ul li {
   padding: 5px;
@@ -86,5 +92,7 @@ header .mobil_menu ul li {
   list-style-type: none;
   
 }
-
+header .mobil_menu ul li a{
+  color: #4F4F4F;
+}
 }
