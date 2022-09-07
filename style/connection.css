@@ -40,7 +40,7 @@
     padding-bottom: 120px;
     background-image: url("../assets/connection/images/fon.png");
   }
-  .connection__h1 {
+  .connection__h2 {
     position: absolute;
     margin-left: 90px;
     padding-top: 10px;
@@ -128,7 +128,10 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .connection__h1 {
+  .connection{
+    padding-bottom:50px;
+  }
+  .connection__h2 {
     position: absolute;
     padding-left: 40px;
     font-size: 24px;

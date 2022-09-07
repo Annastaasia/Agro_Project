@@ -38,7 +38,7 @@
   .partners {
     padding-top: 70px;
   }
-  .partners__h1 {
+  .partners__h2 {
     position: absolute;
     padding-left: 90px;
     font-size: 96px;
@@ -95,7 +95,7 @@
     padding-top: 30px;
     font-family: "SF Pro Display Regular";
   }
-  .partners__h1 {
+  .partners__h2 {
     position: absolute;
     padding-left: 40px;
     font-size: 24px;
