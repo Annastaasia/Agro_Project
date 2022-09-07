@@ -41,7 +41,7 @@
     font-weight: normal;
   }
   
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 601px){
     .howwork{
       padding-top:70px;
       background-image: url(../img/fon_kak.png);
@@ -179,6 +179,7 @@
                 font-family: "SF Pro Display Bold";
                 font-size: 1.3vw;
                 font-weight: 500;
+                color: #4F4F4F;
             }
 
               .howwork__p {
@@ -211,5 +212,150 @@
               .howwork__button:hover {
                 color: white;
             }
+
+            .howwork__logomobil {
+              display: none;
+            }
             }
 
+
+
+            @media screen and (max-width: 600px){
+
+              .howwork__h2 {
+                position: absolute;
+              font-family: "SF Pro Display Black";
+              margin-left: 10%;
+              margin-top: 20%;
+              font-weight: 900;
+              font-size: 24px;
+              line-height: 36px;
+                color: #4F4F4F;
+                text-transform: uppercase;
+                      }
+           
+
+            .howwork__logo {
+              display: none;
+            }
+
+            .howwork__logomobil {
+              position: relative;
+    margin-top: 25%;
+    padding-left: 4.2vw;
+            } 
+
+            .howwork__blok1 {
+              grid-area: howwork__blok1;
+              display: grid;
+              grid-template-areas:  "howwork__number-1 howwork__h3"
+                                    "howwork__number-1 howwork__p";
+              grid-template-columns: 25% 1fr;
+              grid-template-rows: 25% 1fr;
+              column-gap:4vw;
+              row-gap: 1vh;
+              padding-top: 10%;
+            }
+
+            .howwork__blok2 {
+              grid-area: howwork__blok2;
+              display: grid;
+              grid-template-areas:  "howwork__number-2 howwork__h3"
+                                    "howwork__number-2 howwork__p";
+              grid-template-columns: 25% 1fr;
+              grid-template-rows: 25% 1fr;
+              column-gap:4vw;
+              row-gap: 1vh;
+              padding-top: 10%;
+            }
+
+            .howwork__blok3 {
+              grid-area: howwork__blok3;
+              display: grid;
+              grid-template-areas:  "howwork__number-3 howwork__h3"
+                                    "howwork__number-3 howwork__p";
+              grid-template-columns: 25% 1fr;
+              grid-template-rows: 25% 1fr;
+              column-gap:4vw;
+              row-gap: 1vh;
+              padding-top: 10%;
+            }
+
+            .howwork__blok4 {
+              grid-area: howwork__blok4;
+              display: grid;
+              grid-template-areas:  "howwork__number-4 howwork__h3"
+                                    "howwork__number-4 howwork__p";
+              grid-template-columns: 25% 1fr;
+              grid-template-rows: 25% 1fr;
+              column-gap:4vw;
+              row-gap: 1vh;
+              padding-top: 10%;
+            }
+
+            .howwork__blok5 {
+              grid-area: howwork__blok5;
+              display: grid;
+              grid-template-areas:  "howwork__number-5 howwork__h3"
+                                    "howwork__number-5 howwork__p";
+              grid-template-columns: 25% 1fr;
+              grid-template-rows: 25% 1fr;
+              column-gap:4vw;
+              row-gap: 1vh;
+              padding-top: 10%;
+            }
+
+
+.howwork__number-1 {
+                grid-area: howwork__number-1;
+                padding-left: 10%;
+              }
+
+              .howwork__number-2 {
+                grid-area: howwork__number-2;
+                padding-left: 8%;
+              }
+
+              .howwork__number-3 {
+                grid-area: howwork__number-3;
+                padding-left: 8%;
+              }
+
+              .howwork__number-4 {
+                grid-area: howwork__number-4;
+                padding-left: 6%;
+              }
+
+              .howwork__number-5 {
+                grid-area: howwork__number-5;
+                padding-left: 8%;
+              }
+
+              .howwork__h3 {
+                grid-area: howwork__h3;
+                font-family: "SF Pro Display Bold";
+                font-size: 6vw;
+                font-weight: 700;
+                line-height: 26px;
+                color: #4F4F4F;
+            }
+
+              .howwork__p {
+                grid-area: howwork__p;
+                padding-right: 3%;
+                font-family: "SF Pro Display Medium";
+                font-size: 4vw;
+                font-weight: 400;
+                line-height: 18px;
+                color: #828282;
+              }
+
+              .howwork__span {
+                display: none;
+              }
+
+              .howwork__button {
+                display: none;
+              }
+
+          }

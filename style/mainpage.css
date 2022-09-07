@@ -391,6 +391,10 @@ line-height: 18px;
                   box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
                   text-decoration:none;
    }
+
+   .mainpage__mobil__button:hover {
+      color: white;
+  }
   
    .mainpage__container2__button:hover {
       color: white;
