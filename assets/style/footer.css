@@ -23,13 +23,13 @@ footer .logo {
   grid-row: 1/2;
 }
 footer .map_site {
-  padding-top: 50px;
+  padding-top: 8vh;
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
-  gap: 12px;
+  gap: 15%;
 }
 footer .map_site .map1 {
   color: rgb(130, 130, 130);
@@ -46,7 +46,7 @@ footer .map_site .map2, footer .map_site .map3, footer .map_site .map4, footer .
   line-height: 18px;
 }
 footer .author {
-  padding: 40px 28px 50px 50px;
+  padding: 15%;
   font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 14px;
@@ -60,13 +60,13 @@ footer .author .name {
   color: rgb(189, 189, 189);
 }
 footer .social {
-  padding-top: 50px;
+  padding-top: 7%;
   grid-column: 3/4;
   grid-row: 1/2;
 }
 footer .social img {
-  padding-right: 27px;
-  padding-top: 10px;
+  padding-right: 4%;
+  padding-top: 2%;
 }
 footer .map_site a{
   text-decoration: none;
@@ -91,20 +91,20 @@ footer {
   width: 100%; 
 }
 footer .logo {
-  padding-left: 16px;
+  padding: 5%;
   grid-column: 1/2;
   grid-row: 3/4;
 }
 footer .map_site {
-  padding-top: 30px;
-  padding-left: 16px;
-  padding-right: 106px;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   grid-column: 1/2;
   grid-row: 1/2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
+  gap: 10%;
 
 }
 footer .map_site .map1 {
@@ -122,7 +122,7 @@ footer .map_site .map2, footer .map_site .map3, footer .map_site .map4, footer .
   line-height: 18px;
 }
 footer .author {
-  padding: 0px 90px 30px 16px;
+  padding: 0px 20vw 10vw 4vw;
   font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 14px;
@@ -136,8 +136,8 @@ footer .author .name {
   color: rgb(189, 189, 189);
 }
 footer .social {
-  padding-top: 30px;
-  padding-left: 16px;
+  padding-top: 7vh;
+  padding-left: 5vw;
   grid-column: 1/2;
   grid-row: 2/3;
   font-weight: 500;
@@ -145,8 +145,8 @@ footer .social {
   line-height: 18px;
 }
 footer .social img {
-  padding-right: 27px;
-  padding-top: 10px;
+  padding-right: 5vw;
+  padding-top: 2vh;
 }
 footer .map_site a{
   text-decoration: none;
