@@ -46,6 +46,7 @@
       padding-top:70px;
       background-image: url(../img/fon_kak.png);
       background-repeat: no-repeat;
+      background-size: 100%;
     }
     .howwork__h2 {
         position: absolute;

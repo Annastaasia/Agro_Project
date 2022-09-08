@@ -35,8 +35,9 @@
 .kredit__block {
   width: 90%;
   height: 530px;
-  background-image: url("../img/fon2.png");
-
+  background-image: url("../img/fon.png");
+  background-repeat: no-repeat;
+ 
   border-radius: 30px;
   margin-left: 5%;
 }
