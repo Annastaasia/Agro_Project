@@ -62,7 +62,7 @@
                 height: 48px;
                 padding-top: 14px;
                 margin-left: 7%;
-                background-image: url(../assets/knopkafon.png);
+                background-image: url(../img/knopkafon.png);
                 background-position: center;
                 background-size: 300px 600px;
                 color: white;
@@ -379,7 +379,7 @@ line-height: 18px;
                   margin-top: 8%;
                   margin-left: 20%;
   padding-top:14px;
-                  background-image: url(../assets/knopkafon.png);
+                  background-image: url(../img/knopkafon.png);
                   background-position: center;
                   background-size: 300px 600px;
                   color: white;

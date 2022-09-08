@@ -2,7 +2,7 @@
 .kredit2 {
   padding-top: 70px;
   padding-bottom: 40px;
-  background-image: url("../assets/kredit/images/fon1.png");
+  background-image: url("../img/fon1.png");
   color: #4F4F4F;
 }
 .kredit2__header {
@@ -102,7 +102,7 @@
   padding-top:14px;
   width:200px;
   height: 32px;
-  background-image: url(../assets/knopkafon.png);
+  background-image: url(../img/knopkafon.png);
   background-position: center;
   background-size: 300px 600px;
   color: white;

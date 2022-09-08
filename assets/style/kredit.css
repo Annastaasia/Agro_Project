@@ -4,7 +4,7 @@
 .kredit {
   padding-top: 70px;
   padding-bottom: 100px;
-  background-image: url("../assets/kredit/images/fon1.png");
+  background-image: url("../img/fon1.png");
 }
 .kredit__header {
   height: 100px;
@@ -35,7 +35,7 @@
 .kredit__block {
   width: 90%;
   height: 530px;
-  background-image: url("../assets/kredit/images/fon.png");
+  background-image: url("../img/fon.png");
 
   border-radius: 30px;
   margin-left: 5%;
@@ -111,7 +111,7 @@
   padding-top:14px;
   width: 200px;
   height: 48px;
-  background-image: url(../assets/knopkafon.png);
+  background-image: url(../img/knopkafon.png);
   background-position: center;
   background-size: 300px 600px;
   color: white;
@@ -146,7 +146,7 @@
   .kredit {
     padding-top: 70px;
     padding-bottom: 30px;
-    background-image: url("../assets/kredit/images/fon1.png");
+    background-image: url("../img/fon1.png");
     font-family: "SF Pro Display Medium";
   }
   .kredit__header {
@@ -182,7 +182,7 @@
     
     width: 90%;
     height: 250px;
-    background-image: url("../assets/kredit/images/fon2.png");
+    background-image: url("../");
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
