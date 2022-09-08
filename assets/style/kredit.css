@@ -35,7 +35,7 @@
 .kredit__block {
   width: 90%;
   height: 530px;
-  background-image: url("../img/fon.png");
+  background-image: url("../img/fon1.png");
 
   border-radius: 30px;
   margin-left: 5%;
@@ -182,7 +182,7 @@
     
     width: 90%;
     height: 250px;
-    background-image: url("../");
+    background-image: url("../img/fon2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -274,7 +274,7 @@
   padding-top:14px;
   width: 200px;
   height: 48px;
-  background-image: url(../assets/knopkafon.png);
+  background-image: url(../img/knopkafon.png);
   background-position: center;
   background-size: 300px 600px;
   color: white;
