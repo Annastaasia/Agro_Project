@@ -26,8 +26,8 @@
     grid-area: mainpage__container2__h1;
     align-self: center;
     font-family: "SF Pro Display Black";
-    margin-left: 50px;
-    font-size: 116px;
+    margin-left: 3.3vw;
+    font-size: 7.7vw;
     color: #48B760;
     text-transform: uppercase;
  }
@@ -39,8 +39,8 @@
  .mainpage__container2__h3 {
     grid-area: mainpage__container2__h3;
     font-family: "SF Pro Display Regular";
-    margin-left: 50px;
-    font-size: 18px;
+    margin-left: 3.3vw;
+    font-size: 1.2vw;
     color: #BDBDBD;
     line-height: 18px;
  }
@@ -48,9 +48,9 @@
  .mainpage__container2__p {
     grid-area: mainpage__container2__p;
     font-family: "SF Pro Display Regular";
-    margin-left: 50px;
+    margin-left: 3.3vw;
     padding-right: 42%;
-    font-size: 14px;
+    font-size: 0.9vw;
     font-weight: 400;
     color: #828282;
     line-height: 18px;
@@ -58,18 +58,18 @@
 
  .mainpage__container2__button {
     grid-area: mainpage__container2__button;
-                width: 200px;
-                height: 48px;
-                padding-top: 14px;
+                width: 13.3vw;
+                height: 7vh;
+                padding-top: 2vh;
                 margin-left: 7%;
                 background-image: url(../img/knopkafon.png);
                 background-position: center;
-                background-size: 300px 600px;
+                background-size: 20vw 87.7vh;
                 color: white;
                 border-radius: 30px;
                 font-family: "SF Pro Display Heavy";
                 text-transform: uppercase;
-                font-size: 14px;
+                font-size: 0.9vw;
                 border-width: 0px;
                 box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
                 text-decoration:none;
@@ -88,7 +88,7 @@
 
  .mainpage__container3__bot {
     grid-area: mainpage__container3__bot;
-    margin-left: 50px;
+    margin-left: 3.3vw;
     align-self: center;
  }
 
@@ -98,7 +98,7 @@
     font-family: "SF Pro Display Regular";
     padding-right: 15%;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 18px;
     color: #BDBDBD;
 
@@ -136,7 +136,7 @@
     font-family: "SF Pro Display Medium";
     color: #828282;
     font-weight: 500;
-font-size: 18px;
+font-size: 1.3vw;
 line-height: 18px;
  }
 
@@ -173,7 +173,7 @@ line-height: 18px;
     font-family: "SF Pro Display Medium";
     color: #828282;
     font-weight: 500;
-font-size: 18px;
+font-size: 1.3vw;
 line-height: 18px;
  }
 
@@ -209,7 +209,7 @@ line-height: 18px;
     font-family: "SF Pro Display Medium";
     color: #828282;
     font-weight: 500;
-font-size: 18px;
+font-size: 1.3vw;
 line-height: 18px;
  }
 
