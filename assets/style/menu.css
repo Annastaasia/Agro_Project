@@ -24,7 +24,7 @@ header .mobil_menu{
 header .big_menu a {
   text-decoration: none;
   font-weight: 400;
-  height: 32px;
+  height: 20%;
   color: rgb(130, 130, 130);
   text-align: center;
 }
@@ -34,10 +34,11 @@ header .big_menu a:hover{
   height: 32px;
   background-image: url(../img/Ellipse_menu.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right 50% bottom 5%;
   text-align: center;
-
+  padding: 5px;
 }
+
 
 header .big_menu div, header .big_menu a{ 
   justify-self: center;
