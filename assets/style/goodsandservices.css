@@ -51,7 +51,7 @@
 
 
   .goodsandservices{
-    padding-top:100px;
+    padding-top: 14vh;
     background-image: url(../img/fon_tovari.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -59,18 +59,18 @@
   .goodsandservices__h2 {
     position: absolute;
   font-family: "SF Pro Display Black";
-  margin-left: 90px;
-    font-size: 96px;
+  margin-left: 6vw;
+    font-size: 6vw;
     color: #4F4F4F;
     text-transform: uppercase;
           }
 
   .goodsandservices__text {
     font-family: "SF Pro Display Medium";
-    margin-left: 50px;
+    margin-left: 3.3vw;
     padding-top: 7vh;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-right: 3.3vw;
+    font-size: 1.2vw;
     color: #4F4F4F;
         } 
       
@@ -82,19 +82,19 @@
   }
 
   .goodsandservices__button {
-    width: 200px;
-                height: 48px;
-                padding-top: 14px;
+    width: 13.3vw;
+                height: 7vh;
+                padding-top: 2vh;
                 margin-left: 7%;
                 background-image: url(../img/knopkafon.png);
                 background-position: center;
-                background-size: 300px 600px;
+                background-size: 20vw 87.7vh;
                 color: white;
                 border-radius: 30px;
                 font-family: "SF Pro Display Heavy";
                 text-transform: uppercase;
-                font-size: 14px;
-                border-width: 0px;
+                font-size: 0.9vw;
+                border-width: 0vw;
                 box-shadow: 0px 20px 20px 0px rgba(115, 205, 0, 0.3);
                 text-decoration:none;
   }
@@ -102,8 +102,8 @@
   .goodsandservices__h5 {
     font-family: "SF Pro Display Regular";
     font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 1.6vw;
+    line-height: 1.7vw;
     color: #828282;
   }
 }
@@ -117,6 +117,8 @@
     display: none;
   }
 
+
+
   .goodsandservices-cardmobil__border {
     border-radius: 30px;
     border-width: 0px;
@@ -129,8 +131,8 @@
     margin-left: 10%;
     margin-top: 20%;
     font-weight: 900;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 7.6vw;
+    line-height: 2.4vw;
     color: #4F4F4F;
     text-transform: uppercase;
           }
@@ -142,16 +144,16 @@
         .goodsandservices__cardtext {
           font-family: "SF Pro Display Medium";
           font-weight: 600;
-          font-size: 20px;
-          line-height: 26px;
+          font-size: 5.5vw;
+          line-height: 4vw;
           color: #828282;
         }
 
         .goodsandservices__cardtext2 {
           font-family: "SF Pro Display Medium";
           font-weight: 500;
-          font-size: 13px;
-          line-height: 18px;
+          font-size: 4vw;
+          line-height: 3vw;
           color: #BDBDBD;
         }
 
@@ -159,10 +161,10 @@
           font-family: "SF Pro Display Medium";
     margin-left: 2vh;
     padding-top: 3vh;
-    margin-right: 50px;
+    margin-right: 3.3vw;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 4vw;
+    line-height: 5vw;
     color: #828282;
         }
       
@@ -173,17 +175,11 @@
 
   .goodsandservices__logomobil {
     position: relative;
-    margin-top: 25%;
+    margin-top: 23%;
     padding-left: 4.2vw;
    
   }
 
-  .goodsandservices__h5 {
-    font-family: "SF Pro Display Regular";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
-    color: #828282;
-  }
+
 
 }
