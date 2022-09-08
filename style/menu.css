@@ -24,14 +24,18 @@ header .mobil_menu{
 header .big_menu a {
   text-decoration: none;
   font-weight: 400;
+  height: 32px;
   color: rgb(130, 130, 130);
+  text-align: center;
 }
 header .big_menu a:hover{
-  color: rgb(189, 189, 189);
+  color: rgba(79, 79, 79, 1);
   font-weight: 500;
+  height: 32px;
   background-image: url(../img/Ellipse_menu.svg);
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
 
 }
 
@@ -63,11 +67,13 @@ header .mobil_menu {
   z-index: 1;
 }
 header .mobil_menu .open_menu {
-  justify-self: center; 
+  justify-self: end; 
   position: relative;
   display: inline-block;
   text-decoration: none;
   color: #4F4F4F;
+  margin-right: 50px;
+  margin-top: 15px;
 }
 header .mobil_menu ul {
   display: none;
@@ -88,11 +94,19 @@ header .mobil_menu .open_menu a {
 header .mobil_menu ul li {
   padding: 5px;
   text-decoration: none;
-  color: #4F4F4F;
+  color: rgb(130, 130, 130);
   list-style-type: none;
   
 }
 header .mobil_menu ul li a{
-  color: #4F4F4F;
+  color: rgb(130, 130, 130);
+}
+header .mobil_menu ul li a:hover {
+  color:rgba(79, 79, 79, 1);;
+}
+header .mobil_menu .open_menu .union {
+  height: 20px;
+  width: 20px;
+  margin-left: 11px;
 }
 }
