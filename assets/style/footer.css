@@ -15,7 +15,7 @@ footer {
   grid-template-rows: 1fr 1fr;
   background-color: rgb(79, 79, 79);
   color: white;
-  width: 1440px;
+  width: 100%;
 }
 footer .logo {
   padding: 50px 120px 50px 50px;
@@ -88,7 +88,7 @@ footer {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: rgb(79, 79, 79);
   color: white;
-  width: 600px; 
+  width: 100%; 
 }
 footer .logo {
   padding-left: 16px;
