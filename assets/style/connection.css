@@ -1,15 +1,15 @@
 @import url(/style/font.css);
 @media screen and (min-width: 601px) {
   .connection {
-    padding-top: 70px;
+    padding-top: 5vh;
     padding-bottom: 120px;
     background-image: url("../assets/connection/images/fon.png");
   }
   .connection__h2 {
     position: absolute;
-    margin-left: 90px;
+    margin-left: 6vw;
     padding-top: 10px;
-    font-size: 96px;
+    font-size: 6.4vw;
     font-family: "SF Pro Display Black";
     color: #4F4F4F;
   }
@@ -19,11 +19,11 @@
     margin-top: 12vh;
   }
   .connection__button {
-    margin-left: 50px;
-    margin-top: 20px;
-    padding-top: 14px;
-    width: 200px;
-    height: 48px;
+    margin-left: 3.5vw;
+    margin-top: 3vh;
+    width: 13.3vw;
+    height: 7vh;
+    padding-top: 2vh;
     background-image: url(../img/knopkafon.png);
     background-size: 300px 600px;
     background-position: center;
